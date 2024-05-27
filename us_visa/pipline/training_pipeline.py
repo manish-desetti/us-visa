@@ -10,7 +10,7 @@ from us_visa.components.model_evaluation import ModelEvaluation
 from us_visa.components.model_pusher import ModelPusher
 from us_visa.entity.config_entity import (DataIngestionConfig, DataValidationConfig, DataTransformationConfig,ModelTrainerConfig,ModelEvaluationConfig, ModelPusherConfig)
 from us_visa.entity.artifact_entity import (DataIngestionArtifact, DataValidationArtifact, DataTransformationArtifact, ModelTrainerArtifact,ModelEvaluationArtifact, ModelPusherArtifact)
-#hi
+
 class TrainPipeline:
     def __init__(self):
         self.data_ingestion_config = DataIngestionConfig()
